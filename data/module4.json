@@ -1,0 +1,93 @@
+{
+  "module": 4,
+  "title": "Copilot in Excel & the Analyst Agent",
+  "icon": "📊",
+  "questions": [
+    {
+      "id": "m4q1",
+      "type": "single",
+      "question": "What does Copilot in Excel need in order to work with your data?",
+      "options": [
+        "The workbook saved to the cloud (such as OneDrive) and the data formatted as a table or supported range",
+        "The workbook stored only on your local hard drive",
+        "The data pasted in from a web page every time",
+        "The workbook converted to a PDF first"
+      ],
+      "correct": [0],
+      "explanation": "Copilot in Excel needs the file saved to the cloud (OneDrive or SharePoint) and the data formatted as a table or supported range so it can read and analyze it.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/analyze-visualize-data-copilot/2-analyze-data-workflows-excel"
+    },
+    {
+      "id": "m4q2",
+      "type": "single",
+      "question": "What can Copilot in Excel do with formulas?",
+      "options": [
+        "Generate formulas and calculated columns, and explain what an existing formula does",
+        "Explain existing formulas but never create new ones",
+        "Only perform calculations by writing VBA macros",
+        "Nothing; Copilot cannot work with formulas"
+      ],
+      "correct": [0],
+      "explanation": "Copilot can generate formulas and new calculated columns from your data, and it can also explain how an existing formula works.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/copilot-office-applications/5-copilot-in-excel"
+    },
+    {
+      "id": "m4q3",
+      "type": "single",
+      "question": "When is the Analyst agent especially useful?",
+      "options": [
+        "When your data spans multiple files that are not yet in Excel, so it can explore and consolidate them for you",
+        "Only when all data is already in a single open worksheet",
+        "Only after you manually merge every file into one workbook",
+        "Only if you write SQL to combine the data sources"
+      ],
+      "correct": [0],
+      "explanation": "The Analyst agent is built for data that spans multiple files that are not yet in Excel: it explores and compares those datasets and consolidates them for you instead of making you combine files manually.",
+      "source": "https://support.microsoft.com/en-us/microsoft-365-copilot/get-started-with-analyst-in-microsoft-365-copilot"
+    },
+    {
+      "id": "m4q4",
+      "type": "single",
+      "question": "How does Copilot in Excel with Python handle an advanced analysis such as a forecast?",
+      "options": [
+        "You describe the problem in plain language, and Copilot generates and runs the Python code, returning results in your workbook",
+        "You must write all the Python code yourself; Copilot only explains it",
+        "It runs the analysis in a separate web app, never in your workbook",
+        "It uses the R language instead of Python"
+      ],
+      "correct": [0],
+      "explanation": "With Copilot in Excel with Python, you describe the analysis in plain language and Copilot generates and runs the Python code for you, returning the results directly in your workbook.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/uncover-new-data-insights-ai/3-customize-data-integration-analysis-visualization"
+    },
+    {
+      "id": "m4q5",
+      "type": "multi",
+      "question": "Select all the ways Copilot in Excel can present insights about your data.",
+      "options": [
+        "As charts",
+        "As PivotTables",
+        "As summaries of trends",
+        "By highlighting outliers",
+        "By emailing your workbook to other organizations"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Copilot in Excel can surface insights as charts, PivotTables, summaries, trends, and outliers. It does not send your workbook to other organizations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/copilot-office-applications/5-copilot-in-excel"
+    },
+    {
+      "id": "m4q6",
+      "type": "multi",
+      "question": "Select all that the Analyst agent can do with your data.",
+      "options": [
+        "Calculate statistics",
+        "Identify trends",
+        "Show outliers",
+        "Return a plain-language report that can include charts and tables",
+        "Automatically send emails to stakeholders"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "The Analyst agent calculates statistics, identifies trends, shows outliers, and returns a plain-language report that can include charts and tables. It does not send emails on its own.",
+      "source": "https://support.microsoft.com/en-us/microsoft-365-copilot/get-started-with-analyst-in-microsoft-365-copilot"
+    }
+  ]
+}

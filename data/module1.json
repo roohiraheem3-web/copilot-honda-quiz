@@ -1,0 +1,92 @@
+{
+  "module": 1,
+  "title": "Copilot Foundations, Work IQ & Choosing the Right Model",
+  "icon": "🧠",
+  "questions": [
+    {
+      "id": "m1q1",
+      "type": "single",
+      "question": "What is Work IQ in Microsoft 365 Copilot?",
+      "options": [
+        "An intelligence layer that lets Copilot and agents access and reason over your organizational data, context, and tools, with permission-aware governance",
+        "A separate chatbot app you install that replaces Microsoft 365 Copilot",
+        "A dashboard that scores employee productivity",
+        "The name of the large language model that writes Copilot's text"
+      ],
+      "correct": [0],
+      "explanation": "Work IQ is an intelligence layer that builds a semantic understanding of your work across Microsoft 365, letting Copilot and agents reason over organizational data and context while respecting your permissions.",
+      "source": "https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/work-iq/"
+    },
+    {
+      "id": "m1q2",
+      "type": "single",
+      "question": "Which organizational content can Microsoft 365 Copilot reference for a user?",
+      "options": [
+        "Only work content the user is already authorized to access, with existing permissions enforced",
+        "Any file in the organization, regardless of who can open it",
+        "Only files the user created personally",
+        "Everything, because Copilot uses a separate access list that ignores permissions"
+      ],
+      "correct": [0],
+      "explanation": "Copilot access is scoped by the user's existing permissions, so it can only reference work content the user is already authorized to see.",
+      "source": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-overview"
+    },
+    {
+      "id": "m1q3",
+      "type": "single",
+      "question": "Which statement about the AI models behind Microsoft 365 Copilot is correct?",
+      "options": [
+        "Copilot can use models from both OpenAI (GPT) and Anthropic (Claude), and access to Anthropic models is managed by an administrator",
+        "Copilot only ever uses a single fixed Microsoft-built model",
+        "Copilot uses only OpenAI models and no Anthropic models",
+        "Each user permanently picks one model that can never change"
+      ],
+      "correct": [0],
+      "explanation": "Microsoft 365 Copilot offers a choice of models from both OpenAI and Anthropic. Access to Anthropic (Claude) models is governed by an AI or Global Administrator in the Microsoft 365 admin center.",
+      "source": "https://learn.microsoft.com/en-us/copilot/implement/connect-to-ai-subprocessor"
+    },
+    {
+      "id": "m1q4",
+      "type": "single",
+      "question": "For a complex, open-ended question that needs advanced reasoning, which Copilot option is designed to help?",
+      "options": [
+        "Think deeper, which uses a deeper reasoning model",
+        "Quick response, which prioritizes speed for routine questions",
+        "Turning Work IQ off",
+        "Reducing the prompt to a single keyword"
+      ],
+      "correct": [0],
+      "explanation": "Copilot offers Quick response (a fast, high-throughput model for routine questions) and Think deeper (a deeper reasoning model for complex or open-ended questions).",
+      "source": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-overview"
+    },
+    {
+      "id": "m1q5",
+      "type": "multi",
+      "question": "Select all that are true about Microsoft 365 Copilot.",
+      "options": [
+        "It works across apps such as Word, Excel, PowerPoint, Outlook, and Teams",
+        "It is powered by large language models",
+        "It can ground responses in the web and in your organizational data (Microsoft Graph and Work IQ)",
+        "It runs only as a standalone website and is not built into the Office apps"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Copilot is integrated across the Microsoft 365 apps, is powered by large language models, and grounds its answers in the web and your work data. It is not a standalone-only website.",
+      "source": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-overview"
+    },
+    {
+      "id": "m1q6",
+      "type": "multi",
+      "question": "When Work IQ is turned off, select everything Copilot can still use to answer.",
+      "options": [
+        "Content you attach to your prompt",
+        "Publicly available web information",
+        "Your user profile and personalization preferences",
+        "Your mailbox and files, read automatically as usual",
+        "Nothing at all; Copilot stops responding entirely"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "With Work IQ off, Copilot is no longer grounded in Microsoft Graph and loses work context like emails, files, and meetings, but it can still use content you attach, public web information, and your profile and personalization.",
+      "source": "https://support.microsoft.com/en-us/microsoft-365-copilot/what-information-does-copilot-use-to-answer-my-prompt"
+    }
+  ]
+}

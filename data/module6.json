@@ -1,0 +1,93 @@
+{
+  "module": 6,
+  "title": "Agents & Management Dashboards",
+  "icon": "🤖",
+  "questions": [
+    {
+      "id": "m6q1",
+      "type": "single",
+      "question": "What is a Copilot agent?",
+      "options": [
+        "A scoped or focused version of Copilot that acts as an AI assistant and can automate business processes using web and work data",
+        "A standalone desktop app installed separately from Microsoft 365",
+        "A one-time prompt template that cannot access any data",
+        "A hardware device that runs Copilot locally"
+      ],
+      "correct": [0],
+      "explanation": "An agent is a scoped version of Copilot, tailored to specific tasks or knowledge, that can automate processes and use web and work data (Microsoft Graph and Work IQ).",
+      "source": "https://learn.microsoft.com/en-us/microsoft-365/copilot/copilot-overview"
+    },
+    {
+      "id": "m6q2",
+      "type": "single",
+      "question": "How does the Researcher agent differ from standard Copilot chat?",
+      "options": [
+        "It reasons more deeply across multiple sources and takes longer to produce a comprehensive, cited, shareable report",
+        "It is faster than standard chat for every task",
+        "It behaves identically to chat; only the name is different",
+        "It can only answer one-word questions"
+      ],
+      "correct": [0],
+      "explanation": "Researcher is built for deeper reasoning across the web and your work content and deliberately takes longer to produce a thorough, cited report, whereas standard chat is optimized for speed and quick tasks.",
+      "source": "https://learn.microsoft.com/en-us/microsoft-365/copilot/researcher-agent"
+    },
+    {
+      "id": "m6q3",
+      "type": "single",
+      "question": "In Agent Builder, how can you create an agent?",
+      "options": [
+        "Describe it in natural language and have Copilot build it, or configure it manually with a name, description, instructions, knowledge, and starter prompts",
+        "Only by writing code in a developer IDE",
+        "Only by copying someone else's existing agent",
+        "By recording a macro of your clicks"
+      ],
+      "correct": [0],
+      "explanation": "Agent Builder lets you describe the agent in natural language (recommended) or configure it manually on the Configure tab, setting its name, description, instructions, knowledge, and starter prompts.",
+      "source": "https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-build-agents"
+    },
+    {
+      "id": "m6q4",
+      "type": "single",
+      "question": "What are starter prompts in an agent for?",
+      "options": [
+        "To help other users understand the scenarios the agent commonly supports",
+        "To set the agent's billing limits",
+        "To permanently lock the agent's instructions",
+        "To translate the agent into other languages"
+      ],
+      "correct": [0],
+      "explanation": "Starter prompts help users understand what an agent can do by showing common scenarios it supports; each has a name and a description.",
+      "source": "https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-build-agents"
+    },
+    {
+      "id": "m6q5",
+      "type": "multi",
+      "question": "Select all the knowledge sources an agent built in Agent Builder can use.",
+      "options": [
+        "Public websites",
+        "SharePoint and OneDrive content",
+        "Teams chats and meetings",
+        "Outlook email and uploaded (embedded) files",
+        "The user's locally installed antivirus software"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Agent Builder supports knowledge sources such as public websites, SharePoint and OneDrive, Teams chats and meetings, Outlook email, embedded files, and Copilot connectors. Antivirus software is not a knowledge source.",
+      "source": "https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-add-knowledge"
+    },
+    {
+      "id": "m6q6",
+      "type": "multi",
+      "question": "Select everything a Researcher agent response is designed to include.",
+      "options": [
+        "Visuals, charts, and graphs",
+        "Organized sections",
+        "Cited sources",
+        "An audio narration of the report",
+        "A live, editable spreadsheet"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "A Researcher response is designed to include visuals and charts, organized sections, and cited sources. It does not produce an audio narration or a live editable spreadsheet.",
+      "source": "https://learn.microsoft.com/en-us/microsoft-365/copilot/researcher-agent"
+    }
+  ]
+}

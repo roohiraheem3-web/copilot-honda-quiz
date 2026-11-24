@@ -1,0 +1,92 @@
+{
+  "module": 7,
+  "title": "Responsible AI & Governance",
+  "icon": "🔐",
+  "questions": [
+    {
+      "id": "m7q1",
+      "type": "single",
+      "question": "Which organizational data can Microsoft 365 Copilot surface to a user?",
+      "options": [
+        "Only data the user already has at least view access to, using the same access controls as other Microsoft 365 services",
+        "Any file in the tenant, regardless of who can open it",
+        "Only files the user personally created or owns",
+        "Anything, because it temporarily elevates the user's access"
+      ],
+      "correct": [0],
+      "explanation": "Copilot respects existing permissions: it only surfaces content a user can already access, using the same underlying access controls as the rest of Microsoft 365.",
+      "source": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy"
+    },
+    {
+      "id": "m7q2",
+      "type": "single",
+      "question": "How are your prompts, responses, and data accessed through Microsoft Graph used by Microsoft 365 Copilot?",
+      "options": [
+        "They are not used to train the foundation large language models",
+        "They continuously train a shared model used by all customers",
+        "Prompts are used for training, but responses are excluded",
+        "They are forwarded to third parties to train their models"
+      ],
+      "correct": [0],
+      "explanation": "Under enterprise data protection, prompts, responses, and Microsoft Graph data are not used to train the foundation models used by Microsoft 365 Copilot.",
+      "source": "https://learn.microsoft.com/en-us/microsoft-365/copilot/enterprise-data-protection"
+    },
+    {
+      "id": "m7q3",
+      "type": "single",
+      "question": "Because Copilot's responses are not guaranteed to be fully factual, what should users do?",
+      "options": [
+        "Review and fact-check the output before relying on it or sharing it",
+        "Trust it fully, since Microsoft certifies every answer",
+        "Nothing, because Copilot sends drafts automatically",
+        "Assume it is always accurate"
+      ],
+      "correct": [0],
+      "explanation": "Copilot can occasionally be wrong, so responsible use means reviewing and fact-checking its output and avoiding over-reliance before you depend on it.",
+      "source": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy"
+    },
+    {
+      "id": "m7q4",
+      "type": "multi",
+      "question": "Select all that are true about how Microsoft 365 Copilot protects data.",
+      "options": [
+        "It honors Microsoft Purview sensitivity labels and the user's usage rights",
+        "Customer content is logically isolated between tenants",
+        "Data is encrypted both at rest and in transit",
+        "It pools data from all tenants into one shared index"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Copilot inherits sensitivity labels and usage rights, keeps tenants logically isolated, and encrypts data at rest and in transit. It does not pool tenant data into a shared index.",
+      "source": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy"
+    },
+    {
+      "id": "m7q5",
+      "type": "multi",
+      "question": "Which of these are among Microsoft's six Responsible AI principles?",
+      "options": [
+        "Fairness",
+        "Reliability and safety",
+        "Accountability",
+        "Profitability",
+        "Speed"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Microsoft's Responsible AI Standard is built on fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability. Profitability and speed are not principles.",
+      "source": "https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai"
+    },
+    {
+      "id": "m7q6",
+      "type": "single",
+      "question": "Why is remediating oversharing an important step before rolling out Copilot broadly?",
+      "options": [
+        "Because Copilot can surface any content a user already has access to, so a governed data foundation reduces risk",
+        "Because Copilot only ever accesses public files",
+        "Because Copilot cannot read SharePoint content",
+        "Because getting data ready mainly means deleting all old files"
+      ],
+      "correct": [0],
+      "explanation": "Since Copilot surfaces content users can already reach, remediating oversharing and excessive permissions first creates a secure, governed data foundation and lowers risk.",
+      "source": "https://learn.microsoft.com/en-us/microsoft-365/copilot/configure-secure-governed-data-foundation-microsoft-365-copilot"
+    }
+  ]
+}

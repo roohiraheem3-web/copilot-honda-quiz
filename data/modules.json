@@ -1,0 +1,14 @@
+{
+  "course": "Microsoft 365 Copilot",
+  "subtitle": "Feature knowledge check",
+  "questionsPerModule": 6,
+  "modules": [
+    { "number": 1, "title": "Copilot Foundations, Work IQ & Choosing the Right Model", "icon": "🧠", "file": "data/module1.json", "count": 6 },
+    { "number": 2, "title": "Copilot Chat & Effective Prompting", "icon": "💬", "file": "data/module2.json", "count": 6 },
+    { "number": 3, "title": "Copilot in Outlook & Teams", "icon": "📨", "file": "data/module3.json", "count": 6 },
+    { "number": 4, "title": "Copilot in Excel & the Analyst Agent", "icon": "📊", "file": "data/module4.json", "count": 6 },
+    { "number": 5, "title": "Copilot in Word & PowerPoint", "icon": "📝", "file": "data/module5.json", "count": 6 },
+    { "number": 6, "title": "Agents & Management Dashboards", "icon": "🤖", "file": "data/module6.json", "count": 6 },
+    { "number": 7, "title": "Responsible AI & Governance", "icon": "🔐", "file": "data/module7.json", "count": 6 }
+  ]
+}

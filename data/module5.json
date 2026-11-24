@@ -1,0 +1,93 @@
+{
+  "module": 5,
+  "title": "Copilot in Word & PowerPoint",
+  "icon": "📝",
+  "questions": [
+    {
+      "id": "m5q1",
+      "type": "single",
+      "question": "How does Copilot in PowerPoint create a brand-new presentation?",
+      "options": [
+        "From a text description you type, and it may ask clarifying questions such as audience, length, and imagery before generating the deck",
+        "Only from an existing template, never from a prompt",
+        "Only after you write the text of every slide yourself",
+        "By silently generating slides and never asking anything"
+      ],
+      "correct": [0],
+      "explanation": "You describe the presentation you want, and Copilot may ask clarifying questions (audience, deck length, design and imagery) before building the slides.",
+      "source": "https://support.microsoft.com/en-us/powerpoint/copilot/create-a-new-presentation-with-copilot-in-powerpoint"
+    },
+    {
+      "id": "m5q2",
+      "type": "single",
+      "question": "When Copilot in PowerPoint builds a presentation from an existing Word document, what helps it divide the content into slides?",
+      "options": [
+        "Using Word Styles so Copilot can understand the document's structure",
+        "Removing all formatting so the text is plain",
+        "Converting the Word file to a PDF first",
+        "Putting every sentence on its own page"
+      ],
+      "correct": [0],
+      "explanation": "Copilot uses Word Styles to understand the document's structure and split it into slides, and it works best with Word files smaller than about 24 MB.",
+      "source": "https://support.microsoft.com/en-us/powerpoint/copilot/create-a-new-presentation-with-copilot-in-powerpoint"
+    },
+    {
+      "id": "m5q3",
+      "type": "single",
+      "question": "What do you need to use Create in the Microsoft 365 Copilot app?",
+      "options": [
+        "To sign in with an account that has a valid Microsoft Copilot subscription",
+        "A separate desktop app downloaded from the web",
+        "Nothing; it is free to anyone with any Microsoft account",
+        "To open it only from inside PowerPoint"
+      ],
+      "correct": [0],
+      "explanation": "Create is reached from within the Copilot app and requires signing in with an account that has a valid Microsoft Copilot subscription.",
+      "source": "https://support.microsoft.com/en-us/microsoft-365-copilot/get-started-with-create-in-the-microsoft-365-copilot-app"
+    },
+    {
+      "id": "m5q4",
+      "type": "single",
+      "question": "When Copilot generates images inside a Word document, what technology does it use?",
+      "options": [
+        "Microsoft Designer's Image Creator, powered by a DALL-E 3 model",
+        "Stable Diffusion running on your device",
+        "Midjourney",
+        "A scanned clip-art library"
+      ],
+      "correct": [0],
+      "explanation": "Image generation in Word uses Microsoft Designer's Image Creator, powered by a DALL-E 3 model, and requires a qualifying Microsoft 365 account.",
+      "source": "https://support.microsoft.com/en-us/word/copilot/generate-images-for-your-documents-with-copilot-in-word"
+    },
+    {
+      "id": "m5q5",
+      "type": "multi",
+      "question": "Select all the ways you can start a draft with Copilot in Word.",
+      "options": [
+        "From a prompt",
+        "From an outline",
+        "From notes",
+        "From a referenced file",
+        "Only by rewriting text that already exists in the document"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Copilot in Word can start a draft from a prompt, an outline, notes, or a referenced file. Rewriting existing text is a separate capability, not the only way to draft.",
+      "source": "https://support.microsoft.com/en-us/word/welcome-to-copilot-in-word"
+    },
+    {
+      "id": "m5q6",
+      "type": "multi",
+      "question": "A Brand Kit in the Microsoft 365 Copilot app can store which of the following?",
+      "options": [
+        "Presentation templates",
+        "Brand colors (as precise values such as hex codes)",
+        "Fonts and logos",
+        "Brand voice and terminology",
+        "The recipients who are allowed to open each document"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "A Brand Kit is a reusable set of approved brand resources (templates, colors, fonts, logos, images, and brand voice) that Copilot draws on so generated content follows the organization's brand. It does not control document recipients.",
+      "source": "https://support.microsoft.com/en-us/microsoft-365-copilot/create-and-manage-official-brand-kits-in-the-microsoft-365-copilot-app"
+    }
+  ]
+}
