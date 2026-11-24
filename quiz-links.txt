@@ -2,21 +2,17 @@ Microsoft 365 Copilot Quiz — links for students
 ================================================
 Public site, no login required for anyone.
 
-NOTE: replace <OWNER> with your GitHub username and <REPO> with your repo name.
-If you run deploy.sh, it fills these in automatically with your real URL.
-For a user/org site the base is:  https://<OWNER>.github.io/<REPO>/
-
 MAIN LINK (all 7 modules / landing page):
-  https://<OWNER>.github.io/<REPO>/
+  https://roohiraheem3-web.github.io/copilot-honda-quiz/
 
 DIRECT LINK PER MODULE (opens that quiz straight away):
-  Module 1 — Copilot Foundations, Work IQ & Choosing the Right Model   https://<OWNER>.github.io/<REPO>/?m=1
-  Module 2 — Copilot Chat & Effective Prompting                        https://<OWNER>.github.io/<REPO>/?m=2
-  Module 3 — Copilot in Outlook & Teams                                https://<OWNER>.github.io/<REPO>/?m=3
-  Module 4 — Copilot in Excel & the Analyst Agent                      https://<OWNER>.github.io/<REPO>/?m=4
-  Module 5 — Copilot in Word & PowerPoint                              https://<OWNER>.github.io/<REPO>/?m=5
-  Module 6 — Agents & Management Dashboards                            https://<OWNER>.github.io/<REPO>/?m=6
-  Module 7 — Responsible AI & Governance                               https://<OWNER>.github.io/<REPO>/?m=7
+  Module 1 — Copilot Foundations, Work IQ & Choosing the Right Model   https://roohiraheem3-web.github.io/copilot-honda-quiz/?m=1
+  Module 2 — Copilot Chat & Effective Prompting                        https://roohiraheem3-web.github.io/copilot-honda-quiz/?m=2
+  Module 3 — Copilot in Outlook & Teams                                https://roohiraheem3-web.github.io/copilot-honda-quiz/?m=3
+  Module 4 — Copilot in Excel & the Analyst Agent                      https://roohiraheem3-web.github.io/copilot-honda-quiz/?m=4
+  Module 5 — Copilot in Word & PowerPoint                              https://roohiraheem3-web.github.io/copilot-honda-quiz/?m=5
+  Module 6 — Agents & Management Dashboards                            https://roohiraheem3-web.github.io/copilot-honda-quiz/?m=6
+  Module 7 — Responsible AI & Governance                               https://roohiraheem3-web.github.io/copilot-honda-quiz/?m=7
 
 Each module has 6 questions (single-choice and multiple-choice). 42 total.
 Content sourced from official Microsoft documentation.
